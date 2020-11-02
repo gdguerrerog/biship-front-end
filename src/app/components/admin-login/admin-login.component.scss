@@ -1,0 +1,35 @@
+@import '../../../variables.scss';
+
+.admin-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .admin-login__form{
+    background-color: $color-darkest-blue;
+    padding: 15px;
+    border-radius: 8px;
+
+    color: $color-ligth-blue;
+  }
+
+  .admin-login__form-title{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  .admin-login__form-label{
+    margin: 0.5em 0;    
+  }
+
+  .admin-login__form-submit-container{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  
+
+}

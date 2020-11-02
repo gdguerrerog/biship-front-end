@@ -1,0 +1,23 @@
+<div class="admin-login">
+    
+  <h1>LASTICOM</h1>
+  
+  <div class="admin-login__form">
+    <form #logInForm="ngForm" (ngSubmit)="login()">
+      <p class="admin-login__form-title">Admin login</p>
+      <div>
+        <p class="admin-login__form-label"> username </p> 
+        <input [(ngModel)]="username" name="username" required/>
+      </div>
+      
+      <div>
+        <p class="admin-login__form-label"> password </p> 
+        <input type="password" [(ngModel)]="password" name="password" required/>
+      </div>
+
+      <div class="admin-login__form-submit-container">
+        <button type="submit">Login</button>
+      </div>
+    </form>
+  </div>
+</div>

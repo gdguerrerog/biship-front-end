@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './variables.scss';
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: $color-darkest-blue;
+  background-color: $color-ligth-blue ;
+}
+
+button{
+  border: none;
+  padding: 4px 8px;
+  background-color: $color-ligth-blue;
+  &:hover{
+    background-color: $color-dark-blue;
+    color: $color-ligth-blue;
+  }
+
+  &:focus{
+    outline: none;
+    border-color: $color-blue;
+  }
+}
+
+input{
+
+  &:hover{
+    background-color: $color-dark-blue;
+    color: $color-ligth-blue;
+  }
+
+  &:focus{
+    outline: none;
+    border-color: $color-blue;
+  }
+}
